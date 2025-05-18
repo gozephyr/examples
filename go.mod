@@ -4,7 +4,10 @@ go 1.23.0
 
 toolchain go1.23.9
 
-require github.com/gozephyr/gencache v1.0.0
+require (
+	github.com/gozephyr/cbreak v0.1.1
+	github.com/gozephyr/gencache v1.0.0
+)
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
